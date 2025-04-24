@@ -64,3 +64,10 @@ This repository includes implementations of:
 
 ---
 
+### 🔹 Artificial Neural Networks (ANN)
+| File                  | Description |
+|------------------------|-------------|
+| `ANN 1H.py`            | ANN with 1 Hidden Layer (Regression or Binary Classification) |
+| `ANN 1H softmax.py`    | ANN with 1 Hidden Layer using Softmax for Multi-Class |
+| `ANN 2HL.py`           | ANN with 2 Hidden Layers |
+
