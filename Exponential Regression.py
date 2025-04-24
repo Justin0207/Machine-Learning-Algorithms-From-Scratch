@@ -55,13 +55,5 @@ print('mean squared error of my model is', mse(exp_pred, y_test))
 print(exp_pred)
 print(len(x_test))
 
-ri = Ridge()
-ri.fit(x_train, y_train)
-pred = ri.predict(x_test)
-print('------------sklearn results------------')
-print('mean squared error of sklearn model is', mse(pred, y_test))
-print(pred)
-
-
 plt.scatter(x_test[:, 4], exp_pred)
 plt.show()
