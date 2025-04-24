@@ -21,30 +21,46 @@ Most machine learning libraries provide easy-to-use APIs that abstract away the 
 
 This repository includes implementations of:
 
-### 🔹 Regression Algorithms
-| File                          | Description |
-|-------------------------------|-------------|
-| `linreg.py`                   | Linear Regression from scratch |
-| `Linreg tensorflow.py`        | Linear Regression using TensorFlow |
-| `Poisson reg.py`              | Poisson Regression implementation |
-| `Ridge.py`                    | Ridge Regression with regularization |
+### 🔹 Regression Models
+| File                       | Description |
+|----------------------------|-------------|
+| `linreg.py`                | Linear Regression (from scratch) |
+| `Linreg tensorflow.py`     | Linear Regression (TensorFlow) |
+| `Poisson reg.py`           | Poisson Regression |
+| `Ridge.py`                 | Ridge Regression with L2 penalty |
+| `Lasso.py`                 | Lasso Regression with L1 penalty |
+| `Exponential Regression.py`| Exponential Regression |
+| `Tensorflow Linear Regression.py` | Another linear regression variant in TF |
 
-### 🔹 Classification Algorithms
-| File                                | Description |
-|-------------------------------------|-------------|
-| `LogisticRegression.py`             | Logistic Regression from scratch |
-| `Tensorflow Logistic Regression.py` | TensorFlow version of Logistic Regression |
-| `Perceptron.py`                     | Perceptron binary classifier |
-| `NaiveBayes.py`                     | Naive Bayes classifier |
-| `SVM.py`                            | Support Vector Machine (Linear Kernel) |
+---
 
-### 🔹 Multi-Class Classification
-| File                                      | Description |
-|-------------------------------------------|-------------|
-| `MultiClass.py`                           | Multiclass classifier from scratch |
-| `Softmax regression.py`                   | Softmax Regression implementation |
-| `Tensorflow Softmax Regression.py`        | TensorFlow version of Softmax Regression |
-| `Tensorflow Linear Regression.py`         | Another linear regression variation with TF |
+### 🔹 Classification Models
+| File                           | Description |
+|--------------------------------|-------------|
+| `LogisticRegression.py`        | Logistic Regression (from scratch) |
+| `Tensorflow Logistic Regression.py` | TensorFlow Logistic Regression |
+| `Perceptron.py`                | Perceptron binary classifier |
+| `NaiveBayes.py`                | Naive Bayes classifier |
+| `SVM.py`                       | Support Vector Machine (Linear Kernel) |
+| `GDA.py`                       | Gaussian Discriminant Analysis |
+| `LDA.py`                       | Linear Discriminant Analysis |
+
+---
+
+### 🔹 Multi-Class & Softmax
+| File                                  | Description |
+|---------------------------------------|-------------|
+| `MultiClass.py`                       | Multi-class classification setup |
+| `Softmax regression.py`               | Softmax Regression from scratch |
+| `Tensorflow Softmax Regression.py`    | TensorFlow Softmax Regression |
+
+---
+
+### 🔹 K-Nearest Neighbors (KNN)
+| File             | Description |
+|------------------|-------------|
+| `KNN.py`         | K-Nearest Neighbors Classifier |
+| `KNNRegressor.py`| K-Nearest Neighbors Regressor |
 
 ---
 
