@@ -1,6 +1,6 @@
 # 🧠 Machine Learning Algorithms from Scratch & TensorFlow
 
-This repository contains a comprehensive collection of **machine learning algorithms**, implemented from scratch using **pure Python/NumPy**, and also replicated using **TensorFlow** for comparison. It’s an ideal resource for students, developers, researchers, and curious minds who want to go beyond black-box models and truly **understand the math and mechanics** behind machine learning. The goal is to demystify how popular ML models work internally and bridge the gap between theoretical understanding and practical implementation.
+This repository contains a comprehensive collection of **machine learning algorithms**, implemented from scratch using **pure Python/NumPy**, and also replicated using **TensorFlow**. It’s an ideal resource for students, developers, researchers, and curious minds who want to go beyond black-box models and truly **understand the math and mechanics** behind machine learning. The goal is to demystify how popular ML models work internally and bridge the gap between theoretical understanding and practical implementation.
 
 ---
 
